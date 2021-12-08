@@ -1,0 +1,21 @@
+{
+  "main": "./contracts/UniswapV2Factory.sol",
+  "deploy": "./build/contracts/UniswapV2Factory.json",
+  "framework": "waffle",
+  "npmClient": "yarn",
+  "compilers": {
+    "truffle": "",
+    "solc": "0.5.16",
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    }
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}

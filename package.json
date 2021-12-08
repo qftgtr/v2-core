@@ -35,6 +35,7 @@
     "typescript": "^3.7.3"
   },
   "scripts": {
+    "build": "waffle waffle.js",
     "lint": "yarn prettier ./test/*.ts --check",
     "lint:fix": "yarn prettier ./test/*.ts --write",
     "clean": "rimraf ./build/",
